@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Página-1" id="gFzCX_1qJ9Vn5uW0HRdT">
+    <mxGraphModel dx="1674" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LXzybdiL90kCuD-DJIRL-1" value="ATM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="354" y="300" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-2" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Georgia;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" edge="1" parent="1" target="LXzybdiL90kCuD-DJIRL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="200" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-6" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="560" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-7" value="Banco" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" edge="1" parent="1" source="LXzybdiL90kCuD-DJIRL-7" target="LXzybdiL90kCuD-DJIRL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="474" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-10" value="01. Ingresar datos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-11" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="240" as="sourcePoint" />
+            <mxPoint x="300" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-12" value="02. Envía los datos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-14" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="270" as="sourcePoint" />
+            <mxPoint x="500" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-15" value="03. Valida los datos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" edge="1" parent="1" source="LXzybdiL90kCuD-DJIRL-6" target="LXzybdiL90kCuD-DJIRL-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="570" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-18" value="04. Elegir opción&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-23" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="330" as="sourcePoint" />
+            <mxPoint x="639" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-24" value="05. Imprimir comprobante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-25" value="06. Depositar dinero" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-26" value="07. Actualiza cuenta" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-28" value="08.&amp;nbsp; Retira dinero" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-41" value="Gonzalez Lazo Diego&lt;div&gt;Montesinos Robledo Karla Romina&lt;/div&gt;&lt;div&gt;2GM1&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontFamily=Georgia;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXzybdiL90kCuD-DJIRL-43" value="Diagrama de colaboración" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontFamily=Georgia;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
